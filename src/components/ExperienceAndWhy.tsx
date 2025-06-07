@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "True Expedition Spirit",
-  description: "Designed for active travelers, every trip includes landings, hikes, kayaking, and wildlife viewing in untouched environments.",
+  title: "Purpose-Built Exploration Ships",
+  description: "Designed for rugged destinations, their ships offer Zodiac launches, viewing platforms, and science-ready tools.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Small Ships, Big Experiences",
-  description: "With fewer than 150 guests, enjoy personalized attention, flexible itineraries, and deeper destination access.",
+  title: "Hands-On Adventure",
+  description: "Join kayaking, diving, skiing, and mountaineering excursions guided by seasoned expedition leaders.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "World-Class Experts",
-  description: "Naturalists, historians, and scientists lead enriching excursions and onboard lectures, offering insight at every turn.",
+  title: "Authentic Expedition Ethos",
+  description: "Built on a legacy of true exploration, every journey emphasizes discovery, education, and respect for nature.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Environmentally Focused Travel",
-  description: "Aurora prioritizes sustainability and conservation, with low-impact practices and Citizen Science programs.",
+  title: "Citizen Science Programs",
+  description: "Participate in environmental research initiatives as part of your cruise, supporting ongoing science efforts.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Aurora Expeditions Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
